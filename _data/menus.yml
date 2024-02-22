@@ -1,0 +1,39 @@
+# Top Menu
+topmenu:
+
+- title: Home
+  url: ""
+
+- title: About
+  url: "about/"
+
+- title: Kamishibai
+  url: "kamishibai/"
+
+- title: Mokublad
+  url: "mokublad/"
+
+- title: Contact
+  url: "contact/"
+
+- title: Agenda  
+  url: "agenda/"
+  class: "ml-2 btn btn-dark text-white px-3"
+  external: false
+
+# Footer Menu
+footermenu:
+
+- title: Home
+  url: ""
+
+- title: Contact
+  url: "contact/"
+
+- title: Soetkin
+  url: https://www.soetkineveraert.be/ 
+  external: true
+
+- title: Vladimir
+  url: https://www.printstudio868.be/  
+  external: true

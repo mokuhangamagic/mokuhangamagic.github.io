@@ -1,0 +1,4 @@
+{% assign img_path = '/assets/images/pages/mokublad/' | append: include.image-name %}
+<img class="img-fluid" 
+     src="{{ img_path | prepend: site.baseurl | replace: 'http://', 'https://' }}{{ include.src }}"
+     alt="{{ include.artist }} - {{ include.title }}">

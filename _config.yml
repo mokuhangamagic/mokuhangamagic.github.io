@@ -1,0 +1,55 @@
+title: "Mokuhanga Magic!"
+email: mokuhangamagic@gmail.com
+timezone: UTC
+baseurl: ""
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: Soetkin
+paginate: 30
+# disqus: 'demowebsite'
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: compressed
+# ganalytics: UA-113961478-1
+
+# Authors
+authors:
+  soetkin:
+    name: Soetkin
+    display_name: Soetkin
+    avatar: 'assets/images/sal.png'
+    email: hello@soetkineveraert.be
+    web: https://www.soetkineveraert.be/
+    instagram: https://www.instagram.com/soet.kien/
+    description: "Soetkin has a background as a sculptor and draughtsman. She was a student of Vladimir at the Academy of Ghent."
+  vladimir:
+    name: Vladimir
+    display_name: Vladimir
+    avatar: 'assets/images/john.png'
+    email: info@printstudio868.eu
+    web: https://www.printstudio868.be
+    instagram: https://www.instagram.com/printstudio_868/
+    description: "Vladimir is a printmaking artist specialising in relief printing and Japanese woodcut. He went to Japan in 2007 to learn the tricks of the trade."
+
+# Social
+social:
+  instagram: https://www.instagram.com/mokuhangamagic
+  facebook: https://www.facebook.com/mokuhangamagic
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
