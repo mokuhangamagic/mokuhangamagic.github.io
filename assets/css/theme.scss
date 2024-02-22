@@ -635,3 +635,15 @@ span.navigation:before {
     transition: all .3s;
     opacity:.8;
 }
+
+.expo2024 {
+    font-size:16px;
+    h1 {
+        font-size: 32px;
+        color: white;
+        text-shadow: 2px 2px 4px $pink; 
+    };
+    h2 {
+        font-size: 16px;
+    }
+}
