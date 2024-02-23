@@ -3,6 +3,13 @@ layout: page
 title: Mokublad
 permalink: "/mokublad/"
 ---
+### Mokublad selected work
+
+A few months ago we launched an open call for contemporary mokuhanga artists, and we received submissions from all over the world!  
+The selected works will be published in a small newspaper, __Mokublad__. This format allows us to reach a wide audience and to refer to the original, accessible and commercial nature of Japanese woodblock printmaking. It is part of our Kamishibai project, where we are cycling around Flanders with a travelling exhibition and mokuhanga demonstrations.
+
+We are proud to present you the selected artworks for __Mokublad__:
+
 {% include mokublad-entry.html 
     image-location="left" 
     artist="Vladimir Invaneau"
@@ -139,26 +146,128 @@ permalink: "/mokublad/"
 %}
 {% include mokublad-entry.html 
     image-location  = "right" 
-    artist          = "artist"
-    title           = "title"
-    url             = "url"
-    image-name      = "mokublad.png"
-    bio             = "bio" 
+    artist          = "Laura Bortoloni"
+    title           = "Mute Map 02"
+    url             = "http://www.laurabortoloni.com/"
+    image-name      = "mokublad-16-laura.png"
+    bio             = "lives and works in Italy. She works as a graphic designer, creative director and is co-founder of Ida Studio, a design agency that focuses on developing visual identity and communication for institutions in the artistic and cultural sector. From her professional practice, Laura has been bitten by typography and letterpress techniques. She takes this interest into her artistic practice. In 2020, she first came into contact with the Japanese woodcut, and in 2023 she attended an artist residency at Mi-lab, Mokuhanga Innovation Laboratory, in Japan." 
 %}
 
 {% include mokublad-entry.html 
     image-location  = "left" 
-    artist          = "artist"
-    title           = "title"
-    url             = "url"
-    image-name      = "mokublad.png"
-    bio             = "bio" 
+    artist          = "Natasha Norman"
+    title           = "What Joy To Come Falling"
+    url             = "https://natashanorman.co.za/"
+    image-name      = "mokublad-17-natasha.png"
+    bio             = "lives and works in South Africa. She currently teaches part-time, writes about art and focuses on her artistic practice. The medium of printmaking and the technical challenges involved in creating an image continually inspire Natasha to create new work. To further open up her inspirational arsenal of printmaking techniques, she attended several residencies on mokuhanga in Japan. In 2019, she co-founded Mokuhanga Kai, an association to promote Japanese woodcut in South Africa." 
 %}
 {% include mokublad-entry.html 
     image-location  = "right" 
-    artist          = "artist"
-    title           = "title"
-    url             = "url"
-    image-name      = "mokublad.png"
-    bio             = "bio" 
+    artist          = "Patty Hudak"
+    title           = "Kites And Darts: 2"
+    url             = "http://www.pattyhudak.com/"
+    image-name      = "mokublad-18-patty.png"
+    bio             = "lives and works in the United States. Through scholarships, she had the opportunity to study in Italy and France. In 2016, she took an artist-in-residence at Mi-Lab, Mokuhanga Innovation Lab, in Kawaguchiko and with professional woodcarver Motoharu Asaka in Tokyo. Even though she is a painter by training, mokuhanga is an essential part of her artistic practice. Like Katie Baldwin, Yoonmi Nam and Kate MacDonagh, she is a member of the collective The Mokuhanga Sisters." 
+%}
+
+{% include mokublad-entry.html 
+    image-location  = "left" 
+    artist          = "Annu Vertanen"
+    title           = "20 Coastal Stations- Al Zaatari Angelinna Got Emotional During The Press Conference"
+    url             = "https://www.uniarts.fi/en/people/annu-vertanen/"
+    image-name      = "mokublad-19-annu.png"
+    bio             = "lives and works in Finland. Annu studied painting, but after her studies became increasingly attracted to printmaking, first as a means to translate her color use from her paintings, but then as an autonomous art form. Her experimentation and research with oil-based and water-based woodcuts, such as mokuhanga, which sometimes lead to room-filling installations, have been awarded several times both in Finland and abroad. Annu currently teaches at the Fine Arts Academy in Helsinki and is also head of the international section of the IMA, International Mokuhanga Association, in Japan." 
+%}
+{% include mokublad-entry.html 
+    image-location  = "right" 
+    artist          = "Paul Furneaux"
+    title           = "Outside"
+    url             = "http://www.paulfurneaux.com/"
+    image-name      = "mokublad-20-paul.png"
+    bio             = "lives and works in Scotland. Paul, by training as a draftsman and painter, went to Tama Art University in Tokyo in 1997 where he studied mokuhanga for three years. He then gave regular workshops in Japanese woodcutting domestically, including the Edin- burgh Printmaking Studio and abroad, but today focuses entirely on his own work. He is known for his large-format Japanese woodcuts and nowadays also incorporates them into three dimensional wall sculptures. Like no other, Paul succeeds in translating his painting skills into mokuhanga." 
+%}
+
+{% include mokublad-entry.html 
+    image-location  = "left" 
+    artist          = "Kristi Arnold"
+    title           = "Bolster"
+    url             = "http://www.kristi-arnold.com/"
+    image-name      = "mokublad-21-kristi.png"
+    bio             = "lives and works in the United States, where she currently teaches at Elizabethtown College in Pennsylvania. After studying painting and printmaking in America, Kristi earned a doctorate in the Arts at the University of Sydney in Australia. As well as her works, Kristi travels the world participating in artist residencies, including the Frans Masereel Center and also the Mokuhanga Innovation Lab, Mi-Lab, in Japan. It was there that her interest in Japanese woodcut was sparked. Kristi likes to combine different media. Color always plays an important role in this." 
+%}
+{% include mokublad-entry.html 
+    image-location  = "right" 
+    artist          = "Gauthier Dejonghe"
+    title           = "Keien 1"
+    url             = "https://www.instagram.com/gauthierdejonghe"
+    image-name      = "mokublad-22-gauthier.png"
+    bio             = "lives and works in Belgium. He studied graphics at the Royal Academy of Fine Arts of Ghent. Even then, Gauthier developed a deep passion for creating images based on mathematical models and sequences. At the same time, coincidence and play are never far away in his work. Through the free graphics course he recently took at the Academy of Fine Arts of Ghent, he came into contact with non-toxic printing techniques, including Japanese woodcut, which he is now fully exploring and combining in his artistic work." 
+%}
+
+{% include mokublad-entry.html 
+    image-location  = "left" 
+    artist          = "Adelina Iantcheva"
+    title           = "Feeling II"
+    url             = "http://www.artelina.eu/"
+    image-name      = "mokublad-23-adelina.png"
+    bio             = "grew up in Bulgaria, but has been living and working in Belgium for almost thirty years. Her artistic adventure really began after she moved to Belgium. Thanks to part-time art education, she immersed herself first in the world of fashion and then in that of painting. Since 2017, she has been completely captivated by the endless possibilities of graphics. Adelina repeatedly researches with great enthusiasm and passion the printing techniques she is offered, including mokuhanga. She consciously looks for the limits and the (im)possibilities that a technique can offer her." 
+%}
+{% include mokublad-entry.html 
+    image-location  = "right" 
+    artist          = "Terry McKenna"
+    title           = "Bridge At Nagakura"
+    url             = "http://www.mokuhanga-school.jp/"
+    image-name      = "mokublad-24-terry.png"
+    bio             = "lives and works between Australia and Japan. Since 2006, he has been passionate about the art of Japanese woodcut. He is particularly fascinated by the close relationship that exists between craftsmanship and art in this medium. Terry is also the founder of the Karuizawa Mokuhanga School where he regularly conducts mokuhanga workshops and offers the opportunity for artists to take an artist residency. He also published an overview handbook on mokuhanga." 
+%}
+
+{% include mokublad-entry.html 
+    image-location  = "left" 
+    artist          = "Wim Vaes"
+    title           = "Personal Big Wave"
+    url             = "https://www.instagram.com/staalvaes"
+    image-name      = "mokublad-25-wim.png"
+    bio             = "lives and works in Belgium. By day Wim puts together concerts in a concert hall in Ghent, but at night and at other possible times he draws the world as he sees it from his attic studio, mostly in black and white. In the evening and at other possible moments he draws from his attic studio, mostly in black and white, the world as he sees it. Wim graduated as a graphic designer and made illustrations for various newspapers and magazines, but always had a preference for graphics. Since 2022 he has been taking an evening graphics course at the Academy of Fine Arts of Ghent where he came in contact with the magic and challenge of the Japanese woodcut." 
+%}
+{% include mokublad-entry.html 
+    image-location  = "right" 
+    artist          = "Yoonmi Nam"
+    title           = "Pop Corn!"
+    url             = "http://www.yoonminam.com/"
+    image-name      = "mokublad-26-yoonmi.png"
+    bio             = "lives and works in the United States. She has been an artist-in-residence at Mi-Lab, Mokuhanga Innovation Laboratory no less than three times (2004, 2012 and 2019) and received the Keiko Kadota Prize for promoting mokuhanga. Mokuhanga is an important medium within her artistic work, but is complemented by other printmaking techniques such as lithography and also objects in glass and ceramics. Yoonmi exhibits regularly in America and abroad and is currently an active professor of printmaking at the University of Kansas. Yoonmi is also a member of the collective The Mokuhanga Sisters and the IMA, International Mokuhanga Association." 
+%}
+
+{% include mokublad-entry.html 
+    image-location  = "left" 
+    artist          = "Katie Baldwin"
+    title           = "Midnight Garden"
+    url             = "http://www.katieameliabaldwin.com/"
+    image-name      = "mokublad-27-katie.png"
+    bio             = "lives and works in the United States. She currently teaches printmaking and book arts there at the University of Huntsville in the state of Alabama. She works with a variety of printmaking techniques including Japanese woodcut. Katie participated in several residencies abroad and has received grants and awards for her prints and books. She is a member of the collective The Mokuhanga Sisters." 
+%}
+{% include mokublad-entry.html 
+    image-location  = "right" 
+    artist          = "Axel Næss"
+    title           = "Yoga Poses"
+    url             = "https://www.instagram.com/Axgan3/"
+    image-name      = "mokublad-28-axel.png"
+    bio             = "lives and studies in Norway. Axel studies East Asian art forms and their development throughout history. In addition to his theoretical studies, Axel also ventures into creating his own artistic work. During his stay at the Taiwan National University of Arts, in the spring of 2023, thanks to a Japanese master he came into contact with the Japanese woodcut. Since then, Axel has been diligently experimenting with the possibilities of this fascinating medium and exploring what mokuhanga can do for him within his artistic work.  " 
+%}
+
+{% include mokublad-entry.html 
+    image-location  = "left" 
+    artist          = "Matthew Willie Garcia"
+    title           = "Combustion Of Space-Time"
+    url             = "http://www.matthewwilliegarcia.com/"
+    image-name      = "mokublad-29-matthew.png"
+    bio             = "lives and works in the United States. He currently works as a studio manager at the well-known Lawrence Art Center in Lawrence, Kansas. Matthew likes to explore the boundaries and intersections between different art genres and techniques. In addition to traditional printmaking techniques, he also uses mokuhanga, animation and large-scale installations to shape his world and push the boundaries of the printmaking medium. " 
+%}
+{% include mokublad-entry.html 
+    image-location  = "right" 
+    artist          = "Nel Pak"
+    title           = "Verzamelaar"
+    url             = "https://www.nelpak.nl/"
+    image-name      = "mokublad-30-nel.png"
+    bio             = "lives and works in the Netherlands. Nel originally studied Dutch Language and Literature at the State University of Utrecht. After teaching for several years, she decided to study drawing and painting at the Rietveld Academy. In 2002, Nel Pak participated in the Nagasawa Art Park Project in Japan, an artist residency around mokuhanga in Japan and the forerunner of Mi-Lab, the Mokuhanga Innovation Laboratory. Since then, Nel has been working mostly with Japanese woodcut or drawing in ink. In addition to teaching children, she also gives workshops on mokuhanga to adults in her own studio." 
 %}

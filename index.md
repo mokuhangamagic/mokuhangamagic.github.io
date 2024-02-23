@@ -1,9 +1,8 @@
 ---
 title: Home
-layout: default
+layout: page
 ---
-
-<div class="col-lg-8 mx-auto article-post serif-font">
+### Travelling exposition 2024 info
 
 <div class="pt-3" markdown="1">
 From __November 2023 to Januari 2025__, we will travel around with a mobile exhibition '__Weg van de Japanse houtsnede__' on Japanese woodcut throughout several Flemish cities. The exhibition consists of 3 parts:
@@ -46,7 +45,5 @@ We launched an __Open Call__ and this brought us entries from all over the world
 The publication will be distributed in all Flemish museums and cultural centres. All this was made possible with the support of [Focus Vakmanschap](https://immaterieelerfgoed.be/nl/nieuws/focusvakmanschap2021-2023){:target="_blank"}.
 
 The MOKUBLAD is a kind of newspaper, created in collaboration with [TUIG](https://www.tuig.rocks){:target="_blank"}. We specifically choose this format because it allows us to reach a wide audience and make a reference to the original, approachable and commercial character of Japanese woodcut.
-
-</div>
 
 </div>
