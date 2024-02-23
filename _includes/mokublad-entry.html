@@ -2,10 +2,10 @@
     <div class="card">
         <div class="row g-0">
             {% if include.image-location == "left" %}
-                <div class="col-md-6 pull-md-6 order-xs-1 order-md-1">
+                <div class="col-md-6">
                     {% include mokublad-entry-image.html image-name = include.image-name %}
                 </div>
-                <div class="col-md-6 push-md-6 order-xs-2 order-md-2">
+                <div class="col-md-6">
                     {% include mokublad-entry-text.html 
                         artist  = include.artist 
                         title   = include.title
@@ -14,7 +14,10 @@
                     %}
                 </div>
            {% else %}
-                <div class="col-md-6 push-md-6 order-xs-2 order-md-1">
+            <div class="col-md-6 order-md-last">
+            {% include mokublad-entry-image.html image-name = include.image-name %}
+        </div>
+                <div class="col-md-6 order-md-first">
                     {% include mokublad-entry-text.html 
                         artist  = include.artist 
                         title   = include.title
@@ -22,10 +25,8 @@
                         bio     = include.bio
                     %}
                 </div>
-                <div class="col-md-6 pull-md-6 order-xs-1 order-md-2">
-                    {% include mokublad-entry-image.html image-name = include.image-name %}
-                </div>
             {% endif %}
         </div>
     </div>
 </div>
+<hr class="d-md-none">
