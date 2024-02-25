@@ -31,8 +31,8 @@ In the exhibition, we provide both a brief historical overview and a visual insi
   It will also be equipped with an iPad so that visitors who could not attend a demonstration can still get an insight into each step of the printing process via a documentary film.
 </div>
 
-<div class="text-center pt-3" >
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fWHX6kUmNng?si=1N4JKcXthcO13Mlx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="text-center pt-3 embed-responsive embed-responsive-16by9" >
+<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/fWHX6kUmNng?si=1N4JKcXthcO13Mlx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class="pt-3" markdown="1">

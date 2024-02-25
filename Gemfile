@@ -20,7 +20,8 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'tzinfo-data'
     gem 'tzinfo'
+    gem "kramdown-parser-gfm"
 end
 
-gem "github-pages", "~> 231", group: :jekyll_plugins
+# gem "github-pages", "~> 231", group: :jekyll_plugins
 gem "webrick", "~> 1.8"
