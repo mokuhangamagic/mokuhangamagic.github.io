@@ -1,4 +1,8 @@
-{% assign img_path = '/assets/images/pages/mokublad/' | append: include.image-name %}
-<img class="img-fluid" 
-     src="{{ img_path | prepend: site.baseurl | replace: 'http://', 'https://' }}{{ include.src }}"
-     alt="{{ include.artist }} - {{ include.title }}">
+{% assign img_path = '/assets/images/pages/mokublad/' | append: include.image-name | prepend: site.baseurl | replace: 'http://', 'https://'  %}
+{% assign alt_text = "Scan of Mokublad selected work named '" | append: include.title | append: "' by " | append: include.artist  %}
+{% picture
+     jpt-webp
+     "{{ img_path }}{{ include.src }}"
+     --alt {{ alt_text }}
+     --img class="img-fluid"
+%}

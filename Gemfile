@@ -21,7 +21,12 @@ group :jekyll_plugins do
     gem 'tzinfo-data'
     gem 'tzinfo'
     gem "kramdown-parser-gfm"
+    # image optimalisation
+    # jekyll_picture_tag needs https://www.libvips.org/install.html - brew install vips
+    gem 'jekyll_picture_tag', '~> 2.0' 
+
 end
 
 # gem "github-pages", "~> 231", group: :jekyll_plugins
 gem "webrick", "~> 1.8"
+

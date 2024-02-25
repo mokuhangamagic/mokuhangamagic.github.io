@@ -31,3 +31,46 @@ https://open-web-calendar.hosted.quelltext.eu/
     "week"
   ]
 }
+
+# Jekyll Picture Tag gem
+https://rbuchberger.github.io/jekyll_picture_tag/
+!! github pages
+https://gist.github.com/elstudio/38bacfe7aab63da082a418fd3a1ddb66
+
+
+# github -> ftp
+https://mikeconroy.com/2020/04/automating-jekyll-deployments-github-actions/
+```
+name: Build & Upload Site
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
+
+    - name: Setup Environment.
+      run: |
+        gem install jekyll bundler
+        bundle install
+        sudo apt-get install -y ncftp
+        
+    - name: Build Site with Jekyll.
+      run: JEKYLL_ENV=production bundle exec jekyll build
+    
+    - name: Upload site to FTP.
+      env: 
+        ftp_location: ${{ secrets.ftp_location }}
+        ftp_username: ${{ secrets.ftp_username }}
+        ftp_password: ${{ secrets.ftp_password }} 
+      run: |
+        ncftpput -R -v -u "$ftp_username" -p "$ftp_password" $ftp_location /mikeconroy.com _site/*
+```

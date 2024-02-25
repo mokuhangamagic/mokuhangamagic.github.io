@@ -3,7 +3,11 @@
         <div class="row g-0">
             {% if include.image-location == "left" %}
                 <div class="col-md-6">
-                    {% include mokublad-entry-image.html image-name = include.image-name %}
+                    {% include mokublad-entry-image.html 
+                        image-name = include.image-name 
+                        artist  = include.artist 
+                        title   = include.title
+                    %}
                 </div>
                 <div class="col-md-6">
                     {% include mokublad-entry-text.html 
@@ -15,7 +19,11 @@
                 </div>
            {% else %}
             <div class="col-md-6 order-md-last">
-            {% include mokublad-entry-image.html image-name = include.image-name %}
+            {% include mokublad-entry-image.html 
+                image-name = include.image-name 
+                artist  = include.artist 
+                title   = include.title
+            %}
         </div>
                 <div class="col-md-6 order-md-first">
                     {% include mokublad-entry-text.html 

@@ -2,6 +2,8 @@
 layout: page
 title: Mokublad
 permalink: "/mokublad/"
+description: "The selected works for the Mokublad newspaper, with short bios of the artists"
+author: Soetkin
 ---
 ### Mokublad selected work
 
