@@ -1,0 +1,8 @@
+- name: Belgium
+  code: be
+- name: France
+  code: fr
+- name: Japan
+  code: jp
+- name: Finland
+  code: fi

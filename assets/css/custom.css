@@ -4,3 +4,12 @@ Just customize your theme here.
 ================================================== */
 
 body {}
+
+#mokumap {
+    width: 100%;
+    height: 100%;
+}
+
+.gps-marker::after {
+    content: "📍";
+}

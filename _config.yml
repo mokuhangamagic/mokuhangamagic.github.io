@@ -62,6 +62,19 @@ picture:
   output: "assets/images/generated"
   suppress_warnings: true
 
+# mokumap
+collections:
+  mokumap_entries:
+    output: true
+    
+defaults:
+  -
+    scope:
+      path: "mokumap_entries"
+    values:
+      layout: "mokumap_entry"
+      
+
 prose:
   rooturl: '_posts'
   siteurl: 'https://github.com/mokuhangamagic/mokuhangamagic.github.io'

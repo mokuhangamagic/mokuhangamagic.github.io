@@ -74,3 +74,11 @@ jobs:
       run: |
         ncftpput -R -v -u "$ftp_username" -p "$ftp_password" $ftp_location /mikeconroy.com _site/*
 ```
+
+
+# map - leaflet
+https://ttntm.me/blog/store-locator-leaflet-hugo/
+tiles: https://leaflet-extras.github.io/leaflet-providers/preview/
+
+# Calendar
+https://github.com/FOSSRIT/fossrit.github.io/pull/85/commits

@@ -1,0 +1,16 @@
+- key: artist
+  name: Artist
+  icon_path: /assets/images/mokumap/types/artist.svg
+  map_icon_name: artistIcon
+  badge_style: badge-primary
+- key: shop
+  name: Shop
+  icon_path: /assets/images/mokumap/types/shop.svg
+  map_icon_name: shopIcon
+  badge_style: badge-warning
+- key: factory
+  name: Factory
+  icon_path: /assets/images/mokumap/types/factory.svg
+  map_icon_name: factoryIcon
+  badge_style: badge-info
+

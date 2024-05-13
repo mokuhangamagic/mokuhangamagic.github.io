@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<div class="col-lg-12 mx-auto">
+  
+
+<div class="row map-border my-5">
+    <div class="col-12 col-md-5 col-lg-4 order-2 order-md-1 px-md-0">
+        <!-- search on top -->
+        <div class="p-4">
+            <div class="input-group shadow-sm mt-3">
+                <input class="form-control border-0" type="text" id="storefinder" onkeyup="findStore();" placeholder="Area code, i.e. '1010'">
+                <div class="input-group-append">
+                    <button class="btn btn-secondary bg-white text-secondary border-0 py-0" type="submit">Find</button>
+                </div>
+            </div>
+            <p id="result" class="small text-center mt-3 mb-0"></p>
+        </div>
+        <!-- list of shops -->
+        <div class="shop-container d-flex flex-column flex-nowrap align-content-start px-md-0">
+            {%- for entry in site.mokumap_entries -%}
+                    {%- assign map_type = site.data.types | where: "key", entry.type | first -%}
+                    <div class="sItem flex-grow-0 px-0 py-2 p-md-2" data-name="{{ entry.name }}" data-cty="{{ entry.country }}" data-lat="{{ lat }}" data-lon="{{ lon }}">
+                        <div class="sItem--offline rounded-lg shadow-sm px-3 py-2">
+                            <h5 class="h6 mb-0"><a href="{{ entry.url | relative_url }}">{{ entry.name }}</a></h5>
+                            <p class="small mt-1 mb-0">
+                                <span class="badge {{map_type.badge_style}}">{{map_type.name}}</span>
+                                {{ entry.web }}<br>{{ entry.type }}, {{ entry.country }}</p>
+                        </div>
+                    </div>
+            {%- endfor -%}
+        </div>
+    </div>
+    <!-- MAP -->
+    <div class="col-12 col-md-7 col-lg-8 map-container order-1 order-md-2 px-0">
+        <div id="mokumap"></div>
+    </div>
+</div>
+
+<script>
+    const items = document.querySelectorAll(".sItem"); // all pois in the list
+    const item = document.querySelectorAll('.sItem--offline'); // each poi
+    const startZoom = 2; //Define zoom level - 13 = default | 19 = max
+    const startLat = 50;
+    const startLon = 3;
+
+    {%-  for map_type in site.data.types -%}
+        const {{map_type.map_icon_name}} = new L.Icon({iconUrl: '{{map_type.icon_path}}'});
+
+    {%-  endfor -%}
+
+    var map = L.map('mokumap', {scrollWheelZoom: false}).setView([startLat, startLon], startZoom);
+    // Add tiles
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 20}).addTo(map)
+
+    // zoom options enable/disable
+    map.on('click', () => {
+        map.scrollWheelZoom.enable();
+    });
+
+    map.on('mouseout', () => {
+        map.scrollWheelZoom.disable();
+    });
+
+    // entries
+    {% for entry in site.mokumap_entries %}
+        {%- assign lat = entry.lat_lon | split:' ' | first -%}
+        {%- assign lon = entry.lat_lon | split:' ' | last -%}
+        {%- assign map_type = site.data.types | where: "key", entry.type | first -%}
+        L.marker([{{lat}}, {{lon}}], { title: '{{entry.name}}', icon: {{map_type.map_icon_name}} }).addTo(map).on('click', function (e) { window.open('{{ entry.url }}', '_self'); });
+    {%- endfor -%}
+</script>
