@@ -7,9 +7,27 @@ body {}
 
 #mokumap {
     width: 100%;
-    height: 100%;
+    height: 100px;
+    min-height: 400px
 }
 
 .gps-marker::after {
     content: "📍";
+}
+
+.sItem-container{
+    width:33.33333%
+}
+
+.sItem--hidden{
+    display:none
+}
+
+.map-container{
+    overflow:hidden
+}
+
+.shop-container{
+    max-height:50vh;
+    overflow-y:auto
 }

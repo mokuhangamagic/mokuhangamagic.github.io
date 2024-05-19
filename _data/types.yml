@@ -1,16 +1,21 @@
-- key: artist
-  name: Artist
-  icon_path: /assets/images/mokumap/types/artist.svg
-  map_icon_name: artistIcon
+- key: personal
+  name: Personal
+  icon_path: /assets/images/mokumap/types/personal.svg
+  map_icon_name: personalIcon
   badge_style: badge-primary
-- key: shop
-  name: Shop
-  icon_path: /assets/images/mokumap/types/shop.svg
-  map_icon_name: shopIcon
+- key: commercial
+  name: Commercial
+  icon_path: /assets/images/mokumap/types/commercial.svg
+  map_icon_name: commercialIcon
   badge_style: badge-warning
-- key: factory
-  name: Factory
-  icon_path: /assets/images/mokumap/types/factory.svg
-  map_icon_name: factoryIcon
+- key: organisation
+  name: Organisation
+  icon_path: /assets/images/mokumap/types/organisation.svg
+  map_icon_name: organisationIcon
   badge_style: badge-info
+- key: museum
+  name: Museum
+  icon_path: /assets/images/mokumap/types/museum.svg
+  map_icon_name: museumIcon
+  badge_style: badge-success
 
