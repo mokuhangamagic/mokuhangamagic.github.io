@@ -15,6 +15,7 @@ instagram:
 facebook: 
 youtube:
 linked_in:
+tags: [shop]
 ---
 * Carving knives
 * Baren and hake

@@ -106,4 +106,5 @@ instagram: https://www.instagram.com/arthistorymuseumbrussels/
 facebook: https://www.facebook.com/ArtHistoryMuseumBrussels
 youtube: https://www.youtube.com/channel/UCKdkNk52mECkF420wkcJp8A
 linked_in: https://www.linkedin.com/company/art-and-history-museum
+tags: [shop, factory] 
 ---

@@ -14,4 +14,5 @@ instagram: https://www.instagram.com/Printstudio_868/
 facebook: https://www.facebook.com/Printstudio868/
 youtube:
 linked_in:
+tags: [artist, mokublad]
 ---

@@ -14,6 +14,7 @@ instagram: https://www.instagram.com/soet.kien
 facebook:
 youtube:
 linked_in:
+tags: [artist, mokublad]
 ---
 Soetkin Everaert works as an artist from Ghent, Belgium. 
 Her field is broad from drawing, textiles and ceramics to graphics with a focus on japanese woodblock print.

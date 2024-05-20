@@ -15,5 +15,13 @@ instagram: https://www.instagram.com/bumpodo/
 facebook: 
 youtube:
 linked_in:
+tags: [shop]
 ---
-Carving knives ◯, Baren ◯, Brushes and brushes ◯, Woodblocks ◯, Grinding stones ◯, Japanese paper ◯, Paints and pigments ◯, Sumi ink ◯
+* Carving knives
+* Baren
+* Brushes and brushes
+* Woodblocks
+* Grinding stones
+* Japanese paper
+* Paints and pigments
+* Sumi ink

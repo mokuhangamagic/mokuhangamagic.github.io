@@ -15,6 +15,7 @@ instagram: https://www.instagram.com/michihamono.kk/
 facebook: 
 youtube:
 linked_in:
+tags: [shop]
 ---
 * Carving knives
 * Baren

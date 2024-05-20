@@ -6,11 +6,11 @@
     const items = $('.sItem'); // all shops in the list
     const item = $('.sItem--offline'); // each shop
     const startZoom = 2; //Define zoom level - 13 = default | 19 = max
-    const startLat = 50.8;
-    const startLon = 4.3;
+    const startLat = 30.8;
+    const startLon = 15.3;
 
     {%  for map_type in site.data.types %}
-    const {{ map_type.map_icon_name }} = new L.Icon({ iconUrl: '{{map_type.icon_path}}' });
+    const {{ map_type.map_icon_name }} = new L.Icon({ iconUrl: '{{map_type.icon_path}}', iconSize: [32, 32], iconAnchor: [16, 32] }); 
     {%  endfor %}
 
     var mokumap = L.map('mokumap', { scrollWheelZoom: false }).setView([startLat, startLon], startZoom);
