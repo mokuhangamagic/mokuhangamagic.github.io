@@ -73,6 +73,7 @@ defaults:
       path: "mokumap_entries"
     values:
       layout: "mokumap_entry"
+      sitemap: false
       
 
 prose:
