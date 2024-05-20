@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="col-lg-12 mx-auto">
+    <div class="row my-3  page-content">
+        {{content}}
+    </div>
+    <div class="row map-border">
+        <div class="col-12 col-md-5 col-lg-4 order-2 order-md-1 px-md-0">
+            <!-- search on top -->
+            <div class="px-2">
+                <div class="input-group shadow-sm ">
+                    <input class="form-control border-0" type="text" id="mokumapfinder" onkeyup="findEntry();"
+                        placeholder="Type a name, city or country">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary bg-white text-secondary border-0 py-0"
+                            type="submit">Filter</button>
+                    </div>
+                </div>
+                <p id="result" class="small text-center mt-3 mb-0"></p>
+            </div>
+            <!-- list of shops -->
+            <div class="shop-container d-flex flex-column flex-nowrap align-content-start px-md-0">
+                {%- for entry in site.mokumap_entries -%}
+                    {% include mokumap-list-entry.html entry=entry %}
+                {%- endfor -%}
+            </div>
+        </div>
+        <!-- MAP -->
+        <div class="map-container col-12 col-md-7 col-lg-8 order-1 order-md-2 px-0">
+            <div id="mokumap"></div>
+        </div>
+    </div>
+
+    {% include mokumap-js.html %}

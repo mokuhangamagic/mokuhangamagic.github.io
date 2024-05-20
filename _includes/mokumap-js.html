@@ -1,0 +1,113 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="{{ base.url | prepend: site.url }}/assets/js/leaflet.markercluster-src.js"></script>
+
+<script>
+    const items = $('.sItem'); // all shops in the list
+    const item = $('.sItem--offline'); // each shop
+    const startZoom = 2; //Define zoom level - 13 = default | 19 = max
+    const startLat = 30.8;
+    const startLon = 15.3;
+
+    {%  for map_type in site.data.types %}
+    const {{ map_type.map_icon_name }} = new L.Icon({ iconUrl: '{{map_type.icon_path}}', iconSize: [32, 32], iconAnchor: [16, 32] }); 
+    {%  endfor %}
+
+    var mokumap = L.map('mokumap', { scrollWheelZoom: false }).setView([startLat, startLon], startZoom);
+    // Add tiles
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 20
+    }).addTo(mokumap)
+
+    // zoom options enable/disable
+    mokumap.on('click', () => {
+        mokumap.scrollWheelZoom.enable();
+    });
+
+    mokumap.on('mouseout', () => {
+        mokumap.scrollWheelZoom.disable();
+    });
+
+
+    // markers
+    var markers = L.markerClusterGroup();
+
+    {% for entry in site.mokumap_entries %}
+    {% assign lat = entry.lat_lon | split: ',' | first | strip %}
+    {% assign lon = entry.lat_lon | split: ',' | last | strip %}
+    {% assign map_type = site.data.types | where: "key", entry.type | first %}
+    markers.addLayer(L.marker([{{ lat }}, {{ lon }}], { key: "{{ lat | append: "__" | append: lon}}", title: '{{entry.name}}', icon: {{ map_type.map_icon_name }} }).bindPopup("{% include mokumap-popup.html %}"));
+    {% endfor -%}
+
+    // add clustered markers to map
+    mokumap.addLayer(markers);
+
+    // handle item clicks
+    item.click(function () {
+        let ct = $(this);
+        let pt = ct.parent(); // the data-* attributes are with the parent <div>
+        let pLat = pt.attr('data-lat');
+        let pLon = pt.attr('data-lon');
+        let id = pLat + '__' + pLon;
+
+        if (!isEmpty(pLat) | !isEmpty(pLon)) {
+            // find the correct marker
+            markers.eachLayer(function (layer) {
+                if (layer.options.key === id) {
+                    mokumap.setView([pLat, pLon], 15); // move to the selected item and zoom in
+                    layer.openPopup()
+                }
+            });
+        }
+    });
+
+    // reset map
+        function resetMap() {
+        mokumap.closePopup();
+        mokumap.setView([startLat, startLon], startZoom);
+    }
+
+    function findEntry() {
+        const searchInput = $('#mokumapfinder');
+        const hidden = 'sItem--hidden';
+        const result = $('#result');
+
+        let filter = searchInput.val().toUpperCase();
+        let count = 0; // reset on each function call
+
+        for (let i = 0; i < items.length; i++) {
+            let name = items[i].getAttribute('data-name').toUpperCase();
+            let country = items[i].getAttribute('data-country').toUpperCase();
+            let city = items[i].getAttribute('data-city').toUpperCase();
+
+            if (name.toUpperCase().indexOf(filter) > -1) { // check Name
+                items[i].classList.remove(hidden);
+                count = count + 1;
+            } else if (country.toUpperCase().indexOf(filter) > -1) { // Name not found, check country
+                items[i].classList.remove(hidden);
+                count = count + 1;
+            } else if (city.toUpperCase().indexOf(filter) > -1) { // Country not found, check city
+                items[i].classList.remove(hidden);
+                count = count + 1;
+            } else { // nothing found
+                items[i].classList.add(hidden);
+            }
+        }
+        result.html(count + ' Places - <a href="javascript:clearSearch();">Reset</a>'); // print the seartch result
+    }
+
+
+    // clear search
+    function clearSearch() {
+        document.getElementById('mokumapfinder').value = '';
+        findEntry();
+        resetMap();
+    }
+
+    // validate string values
+    function isEmpty(str) {
+        return (!str || 0 === str.length);
+    }
+</script>

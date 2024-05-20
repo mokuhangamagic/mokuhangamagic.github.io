@@ -74,3 +74,37 @@ jobs:
       run: |
         ncftpput -R -v -u "$ftp_username" -p "$ftp_password" $ftp_location /mikeconroy.com _site/*
 ```
+
+
+# map - leaflet
+https://ttntm.me/blog/store-locator-leaflet-hugo/
+tiles: https://leaflet-extras.github.io/leaflet-providers/preview/
+
+Icon: https://www.svgrepo.com/svg/326218/geo-location
+
+# Calendar
+https://github.com/FOSSRIT/fossrit.github.io/pull/85/commits
+
+Lijst suppliers
+https://2024.mokuhanga.org/2024/03/27/list-of-mokuhanga-supplies-dealers/
+
+# Mokumap template
+---
+layout: mokumap_entry
+name: Art & History Museum
+type: public
+city: Brussels
+postcode: 1000
+address_1: Jubelpark 10
+address_2:
+country: Belgium
+lat_lon: 50.839368597346144, 4.391513726656352
+phone: + 32 (0)2 741 73 31
+email:
+web: https://www.artandhistory.museum/en
+instagram: https://www.instagram.com/arthistorymuseumbrussels/
+facebook: https://www.facebook.com/ArtHistoryMuseumBrussels
+youtube: https://www.youtube.com/channel/UCKdkNk52mECkF420wkcJp8A
+linked_in: https://www.linkedin.com/company/art-and-history-museum
+tags: [shop, factory] 
+---

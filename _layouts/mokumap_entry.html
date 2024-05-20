@@ -1,0 +1,55 @@
+---
+layout: default
+disqus: false
+archive: false
+---
+<div class="page-content">
+
+  <div class="col-sm-10">
+    <!-- Post Featured Image -->
+    {% if page.image %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}"
+      alt="{{ page.title }}">{% endif %}
+    <!-- End Featured Image -->
+    <div class="pt-4 mainheading">
+      <h1 class="posttitle">{{ page.name }}</h1>
+    </div>
+    <dl class="row">
+
+      <dt class="col-sm-3">Location</dt>
+      <dd class="col-sm-9">{{page.city}}, {{page.country}}</a></dd>
+
+      {% if page.web %}
+      <dt class="col-sm-3">Homepage</dt>
+      <dd class="col-sm-9"><a href="{{page.web}}" target="_blank">{{page.web}}</a></dd>
+      {% endif %}
+
+      {% if page.phone %}
+      <dt class="col-sm-3">Homepage</dt>
+      <dd class="col-sm-9">{{page.phone}}</dd>
+      {% endif %}
+
+      {% if page.instagram %}
+      <dt class="col-sm-3">Instagram</dt>
+      <dd class="col-sm-9"><a href="{{page.instagram}}" target="_blank">{{page.instagram}}</a></dd>
+      {% endif %}
+
+
+    </dl>
+
+
+    <div class="page-content serif-font">
+      {{content}}
+      <div class="clearfix"></div>
+    </div>
+
+    <small>
+      <span class="post-date"><time class="post-date" datetime="{{ page.date | date:" %Y-%m-%d" }}">{{ page.date |
+          date_to_string }}</time></span>
+      {% if page.last_modified_at %}
+      (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{
+        page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+      {% endif %}
+    </small>
+    </p>
+  
+  </div>

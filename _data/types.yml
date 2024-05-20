@@ -1,0 +1,21 @@
+- key: personal
+  name: Personal
+  icon_path: /assets/images/mokumap/types/personal.svg
+  map_icon_name: personalIcon
+  badge_style: badge-primary
+- key: commercial
+  name: Commercial
+  icon_path: /assets/images/mokumap/types/commercial.svg
+  map_icon_name: commercialIcon
+  badge_style: badge-warning
+- key: organisation
+  name: Organisation
+  icon_path: /assets/images/mokumap/types/organisation.svg
+  map_icon_name: organisationIcon
+  badge_style: badge-info
+- key: museum
+  name: Museum
+  icon_path: /assets/images/mokumap/types/museum.svg
+  map_icon_name: museumIcon
+  badge_style: badge-success
+
