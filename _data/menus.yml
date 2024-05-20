@@ -10,6 +10,9 @@ topmenu:
 - title: Mokublad
   url: "mokublad/"
 
+- title: Mokumap
+  url: "mokumap/"
+
 - title: Agenda  
   url: "agenda/"
 
