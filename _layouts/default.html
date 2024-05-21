@@ -14,8 +14,8 @@
 <!-- custom CSS end-->
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-<link rel="stylesheet" href="{{ base.url | prepend: site.url }}/assets/css/MarkerCluster.Default.css">
-<link rel="stylesheet" href="{{ base.url | prepend: site.url }}/assets/css/MarkerCluster.css">
+<link rel="stylesheet" href="{{ base.url | prepend: site.url | replace: 'http://', 'https://' }}/assets/css/MarkerCluster.Default.css">
+<link rel="stylesheet" href="{{ base.url | prepend: site.url | replace: 'http://', 'https://' }}/assets/css/MarkerCluster.css">
 
 
 {% include matomo.html %}
