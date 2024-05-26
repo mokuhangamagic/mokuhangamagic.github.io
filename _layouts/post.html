@@ -4,6 +4,7 @@ disqus: false
 archive: false
 post_class: post-template
 ---
+<div class="col-lg-9 mx-auto">
 
 <!-- Begin Article
 ================================================== -->
@@ -16,7 +17,7 @@ post_class: post-template
         
 		<div class="col-sm-10">
             <!-- Post Featured Image -->
-			{% if page.image %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
+			{% if page.image %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/assets/images/blog/{{ page.image }}" alt="{{ page.title }}">{% endif %}
 			<!-- End Featured Image -->
 			<div class="mainheading">             
                 
@@ -37,26 +38,22 @@ post_class: post-template
 				<h1 class="posttitle">{{ page.title }}</h1> 
                 
 			</div>
-
+            <!-- Post Date -->
+            <p>
+                <small>
+                    <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+                    {% if page.last_modified_at %}
+                    (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                    {% endif %}
+                    </small>
+                </p>
 			
 
 			<!-- Post Content -->
 			<div class="page-content serif-font">
 				{{content}}
                 <div class="clearfix"></div>
-			</div>
-
-            <!-- Post Date -->
-            <p>
-            <small>
-                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
-                {% if page.last_modified_at %}
-                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
-                {% endif %}
-                </small>
-            </p>
-            
-			
+			</div>			
             
             <!-- Prev/Next -->
             <div class="row PageNavigation mt-4 prevnextlinks d-flex justify-content-between">
@@ -92,3 +89,4 @@ post_class: post-template
 
 <!-- End Article
 ================================================== -->
+</div>

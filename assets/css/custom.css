@@ -3,8 +3,6 @@ Don't want to use sass and simply modify the stylesheet in the old css fashion?
 Just customize your theme here.
 ================================================== */
 
-body {}
-
 #mokumap {
     width: 100%;
     height: 100%;
@@ -35,3 +33,4 @@ body {}
 span.email b {
 	display: none;
 }
+

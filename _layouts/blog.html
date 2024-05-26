@@ -1,0 +1,24 @@
+---
+title: Blog
+layout: default
+---
+
+<div class="col-lg-9 mx-auto">
+
+  <div class="page-content serif-font">
+    <div class="row">
+      {% for post in site.posts %}
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.content | truncatewords: 20 }}</p>
+            <a href="{{ post.url }}">Read more</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
