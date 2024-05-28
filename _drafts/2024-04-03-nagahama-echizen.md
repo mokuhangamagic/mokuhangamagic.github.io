@@ -9,7 +9,7 @@ image: dag3-zichtnagahama.jpg
 ---
 {% include blog-image.html image-name = "dag3-zichtnagahama.jpg"  title = "View on Nagahama city" %}
 
-Alarm clock at 8am. I slept very well. Breakfast here between 6.30am and 7.30am. The Japanese are morning people. So in the last few days I have missed the "inclusive breakfast" a couple of times. Fortunately, Vladimir went yesterday to ask if we could have breakfast in the annex of the hotel, where it is possible to eat until 9 o'clock!
+Alarm clock at 8am. I slept very well. Breakfast here between 6.30am and 7.30am. The Japanese are morning people. So in the last few days I have missed the "inclusive breakfast" a couple of times. Fortunately, Vladimir went yesterday to ask if we could have breakfast in the annex of the hotel, where it is possible to eat until 9 o'clock! 
 
 {% include blog-image.html image-name = "dag3-bentobox.jpg"  title = "Bentobox" %}
 
