@@ -12,17 +12,16 @@ layout: default
         <div class="card">
           <div class="card-body">
             <a href="{{ post.url }}">
-              <h5 class="card-title">{{ post.title }}</h5>
+              <h6 class="card-title mb-0">{{ post.title }}</h6>
             </a>
-            <div class="small pb-3"> 
+           <div class="small pb-3"> 
               <small>
                 <span class="post-date">{{ post.author | capitalize }}, <time class="post-date"
-                    datetime="{{ post.date | date:" %Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-
+                    datetime="{{ post.blog-date | date:" %Y-%m-%d" }}">{{ post.blog-date | date: "%e %B %Y" }}</time>
                 </span>
-                {% include blog-image.html image-name = post.image title = "Blogpost cover image" %}
-
               </small>
+            </div>
+            <div class="pb-3">                {% include blog-image.html image-name = post.image title = "Blogpost cover image" %}
             </div>
             <p class="card-text">{{ post.content | truncatewords: 40 | strip_html }}</p>
             <a href="{{ post.url }}">Read more</a>
