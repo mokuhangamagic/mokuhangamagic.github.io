@@ -10,7 +10,7 @@ image: dag2-oesters.jpg
 {% include blog-image.html image-name = "dag2-gofunpoeder.jpg"  title = "Gofun powder factory shelves" %}
 
 
-Little sleep last night. There was a lot of noise on the road, which made it difficult to sleep. But it was the first night without my sweetheart, it feels strange to sleep alone.
+Little sleep last night. There was a lot of noise on the road, which made it difficult to sleep. But it was also the first night without my sweetheart, it felt strange to sleep alone. 
 
 Our suitcases are packed and we are ready to go to the GOFUN factory somewhere between Osaka and Kyoto. 
 
