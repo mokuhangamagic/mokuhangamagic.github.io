@@ -18,7 +18,7 @@ I stop for a coffee and a slice of cake at the Starbucks around the corner while
 
 Then we put our luggage in a locker for the rest of the day and board the train to Kyoto. Two trains later we arrive at the Gofun factory. One of the things I was really looking forward to. Not really Vladimir's thing, but he sees the potential. We are at the gate a good twenty minutes early (where do I put this!). We are ushered into a small room. It is filled from top to bottom with glass bottles of pigment. Amazing degradations and very intense hues. I could enjoy this for a whole day. My companion is getting more and more enthusiastic as well.
 
-We waited a little for the other group. Four young Swiss came in. Everyone took off their shoes and the factory manager translated the half-hour Japanese video. The company was taken over by his family 130 years ago. He shows a picture of piles of oyster shells collected by his ancestors and their predecessors. 
+We wait a little for the other group. Four young Swiss came in. Everyone took off their shoes and the factory manager translated the half-hour Japanese video. The company was taken over by his family 130 years ago. He shows a picture of piles of oyster shells collected by his ancestors and their predecessors. 
 
 {% include blog-image.html image-name = "dag2-oesters.jpg"  title = "Gofun powder factory oysters stock" %}
 
