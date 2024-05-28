@@ -11,7 +11,11 @@ layout: default
       <div class="col-sm">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">{{ post.title }}</h5>
+            <a href="{{ post.url }}"><h5 class="card-title">{{ post.title }}</h5></a>
+            <div class="small"> <small>
+              <span class="post-date">{{ post.author | capitalize }}, <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+              </span>           
+          </small></div>
             <p class="card-text">{{ post.content | truncatewords: 20 }}</p>
             <a href="{{ post.url }}">Read more</a>
           </div>

@@ -28,7 +28,7 @@ authors:
   soetkin:
     name: Soetkin
     display_name: Soetkin
-    avatar: 'assets/images/sal.png'
+    avatar: 'assets/images/avatars/soetkin.jpg'
     email: hello@soetkineveraert.be
     web: https://www.soetkineveraert.be/
     instagram: https://www.instagram.com/soet.kien/
@@ -36,7 +36,7 @@ authors:
   vladimir:
     name: Vladimir
     display_name: Vladimir
-    avatar: 'assets/images/john.png'
+    avatar: 'assets/images/vladimir.png'
     email: info@printstudio868.eu
     web: https://www.printstudio868.be
     instagram: https://www.instagram.com/printstudio_868/

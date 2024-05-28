@@ -108,3 +108,7 @@ youtube: https://www.youtube.com/channel/UCKdkNk52mECkF420wkcJp8A
 linked_in: https://www.linkedin.com/company/art-and-history-museum
 tags: [shop, factory] 
 ---
+
+
+
+mogrify -resize 1024 *.jpg

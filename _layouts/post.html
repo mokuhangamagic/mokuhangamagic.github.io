@@ -41,12 +41,10 @@ post_class: post-template
             <!-- Post Date -->
             <p>
                 <small>
-                    <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
-                    {% if page.last_modified_at %}
-                    (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
-                    {% endif %}
-                    </small>
-                </p>
+                    <span class="post-date">{{ page.author | capitalize}}, <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+                    </span>           
+                </small>
+            </p>
 			
 
 			<!-- Post Content -->
@@ -71,19 +69,18 @@ post_class: post-template
             <!-- End Prev/Next -->
             
             
-             <!-- Author Box -->
+        <!-- Author Box
                 {% if page.author %}				
 				<div class="row post-top-meta">
 					<div class="col-md-2">
 						<img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
 					</div>
 					<div class="col-md-10">
-						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
-						<span class="author-description">{{ author.description }}</span>						
+						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.instagram }}" class="btn follow">Follow</a>
 					</div>
 				</div>				
                 {% endif %} 
-
+        -->
 		</div>
 		<!-- End Post -->
 
