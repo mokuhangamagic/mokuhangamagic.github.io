@@ -1,0 +1,18 @@
+name: republish-site
+
+on:
+  schedule:
+    - cron: '30 5 * * *'  # Run at 5:30 am every day.
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger GitHub pages rebuild
+        run: |
+          curl --fail --request POST \
+            --url  https://api.github.com/repos/mokuhangamagic/mokuhangamagic.github.io/pages/builds \
+            --header "Authorization: Bearer $USER_TOKEN"
+        env:
+          # You must create a personal token with repo access as GitHub does
+          # not yet support server-to-server page builds.
+          USER_TOKEN: ${{ secrets.USER_TOKEN }}

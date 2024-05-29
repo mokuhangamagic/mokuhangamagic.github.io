@@ -38,7 +38,7 @@ post_class: post-template
             <!-- Post Date -->
             <p>
                 <small>
-                    <span class="post-date">{{ page.author | capitalize}}, <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+                    <span class="post-date">{{ page.author | capitalize}}, <time class="post-date" datetime="{{ page.blog-date | date:"%Y-%m-%d" }}">{{ page.blog-date | date: "%e %B %Y" }}</time>
                     </span>           
                 </small>
             </p>

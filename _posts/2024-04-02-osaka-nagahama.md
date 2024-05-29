@@ -1,7 +1,8 @@
 ---
 author: soetkin
-title: Day 2 | Osaka - Nagahama 
+title: Osaka - Nagahama 
 date: 2024-04-02
+blog-date: 2024-04-02
 layout: post
 tags:
   - japan

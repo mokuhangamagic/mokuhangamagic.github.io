@@ -7,6 +7,7 @@ permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: Soetkin
+future: false
 paginate: 30
 # disqus: 'demowebsite'
 locale: en_uk
@@ -55,6 +56,7 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-archives
+- jemoji
 
 # Jekyll Picture Tag gem
 picture:

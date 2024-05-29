@@ -1,7 +1,8 @@
 ---
 author: soetkin
 title: Day 3 | Nagahama - Echizen
-date: 2024-04-03
+date: 2024-05-29
+blog-date: 2024-04-03
 layout: post
 tags:
   - japan
