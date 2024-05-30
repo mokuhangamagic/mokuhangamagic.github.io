@@ -27,7 +27,7 @@ sass:
 # Authors
 authors:
   soetkin:
-    name: Soetkin
+    name: Soetkin Everaert
     display_name: Soetkin
     avatar: 'assets/images/avatars/soetkin.jpg'
     email: hello@soetkineveraert.be
@@ -35,7 +35,7 @@ authors:
     instagram: https://www.instagram.com/soet.kien/
     description: "Soetkin has a background as a sculptor and draughtsman. She was a student of Vladimir at the Academy of Ghent."
   vladimir:
-    name: Vladimir
+    name: Vladimir Ivaneanu
     display_name: Vladimir
     avatar: 'assets/images/vladimir.png'
     email: info@printstudio868.eu
