@@ -6,7 +6,7 @@ blog-date: 2024-04-08
 layout: post
 tags:
   - japan
-image: dag8-vieuwfactory.jpg
+image: dag8/dag8-vieuwfactory.jpg
 ---
 
 My alarm clock is programmed for 8am. At 6am I am loudly woken up. I curse the joker who set the alarm clock for me yesterday 
@@ -15,31 +15,31 @@ A very Japanese breakfast in the restaurant of the hotel. It was a bit too exoti
 
 Today's programme: SUMI. No, no, not SUMO! SUMI is Japanese black ink. Today we are going to visit two companies that are still producing the ink in the traditional way.
 
-{% include blog-image.html image-name = "dag8-inside factory.jpg"  title = "inside the factory" %}
-{% include blog-image.html image-name = "dag8-ladysumi.jpg"  title = "lady explaining about the process" %}
+{% include blog-image.html image-name = "dag8/dag8-insidefactory.jpg"  title = "inside the factory" %}
+{% include blog-image.html image-name = "dag8/dag8-ladysumi.jpg"  title = "lady explaining about the process" %}
 
 The first company,[Kobaien](http://kobaien.jp), still works according to the original recipe and the original method from the Edo period. Since the 7th generation, the stamp they use on the 'fancy' blocks has remained unchanged. The company is now in the hands of the 16th generation of the family. We get a full explanation and learn that the quality of the ink blocks depends on the oil used (camellia or rapeseed), the size of the wick (small wicks burn more slowly and produce finer soot), the quality of the glue (deer, cow or donkey bone glue) and the ambient temperature when the ink is made (January/February are the coldest and best months in Japan). That is a lot of parameters. It's almost as simple as making woodblock prints!
 
 Anyway. The setting is amazing. The colours and patinas are sublime. I love it. And I'm not the only one who does.
 
-{% include blog-image.html image-name = "dag8-candlessumi.jpg"  title = "candles burning" %}
-{% include blog-image.html image-name = "dag8-workingspace.jpg"  title = "workspace" %}
-{% include blog-image.html image-name = "dag8-makingsumi.jpg"  title = "man rolling sumi paste" %}
+{% include blog-image.html image-name = "dag8/dag8-candlessumi.jpg"  title = "candles burning" %}
+{% include blog-image.html image-name = "dag8/dag8-workingspace.jpg"  title = "workspace" %}
+{% include blog-image.html image-name = "dag8/dag8-makingsumi.jpg"  title = "man rolling sumi paste" %}
 
 The working conditions, however, are somewhat different. The ash covers everything. A bluish steam hangs around the buildings. You can taste it in your mouth. Yet no one wears a mask or protective clothes. Everything is black, peoples clothing, their arms and feet. They knead the dough with their feet, which is then kept warm by sitting on it. A piece of the dough is taken off each time, weighed out precisely and then rolled out to form a sausage. The ends are neatly closed and pressed into the form.
 
 You can make your own bar of Sumi Ink here. It will be sent to you in a few months. It takes five months to dry. The homemade stick is cool. But the homemade part is slightly overrated. It amounts to holding a soft sausage of ink paste in your hand and squeezing your fingers around it for a moment. Back in Belgium, some weeks later, I regret that I did not make a bar - the result is beautiful. Well, next time then!
 
-{% include blog-image.html image-name = "dag8-puttingashesonsticks.jpg"  title = "man covering sticks with ashes" %}
-{% include blog-image.html image-name = "dag8-sortingsticks.jpg"  title = "sorting sticks in wooden box" %}
+{% include blog-image.html image-name = "dag8/dag8-puttingashesonsticks.jpg"  title = "man covering sticks with ashes" %}
+{% include blog-image.html image-name = "dag8/dag8-sortingsticks.jpg"  title = "sorting sticks in wooden box" %}
 
 The sticks are taken out of the mould and have to harden in wooden boxes, which are packed in a different wooden box every day, between newspaper and centuries-old ashes (which are getting drier and drier). They are then braided into a long rope. They are left to dry for about five months.
 
 Each stick is then sifted, painted with gold leaf, perfumed or polished.
 
-{% include blog-image.html image-name = "dag8-dryingsticks.jpg"  title = "sticks hanging to dry" %}
+{% include blog-image.html image-name = "dag8/dag8-dryingsticks.jpg"  title = "sticks hanging to dry" %}
 
-{% include blog-image.html image-name = "dag8-sumisticksready.jpg"  title = "finished sumisticks" %}
+{% include blog-image.html image-name = "dag8/dag8-sumisticksready.jpg"  title = "finished sumisticks" %}
 
 Oh my. Is there anything here in Japan that is easy and quickely made without so much handwork?
 

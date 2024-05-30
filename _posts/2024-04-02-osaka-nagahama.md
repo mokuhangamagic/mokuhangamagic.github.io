@@ -1,14 +1,14 @@
 ---
 author: soetkin
-title: Osaka - Nagahama 
+title: Day 2 | Osaka - Nagahama 
 date: 2024-04-02
 blog-date: 2024-04-02
 layout: post
 tags:
   - japan
-image: dag2-oesters.jpg
+image: dag2/dag2-oesters.jpg
 ---
-{% include blog-image.html image-name = "dag2-gofunpoeder.jpg"  title = "Gofun powder factory shelves" %}
+{% include blog-image.html image-name = "dag2/dag2-gofunpoeder.jpg"  title = "Gofun powder factory shelves" %}
 
 
 Little sleep last night. There was a lot of noise on the road, which made it difficult to sleep. But it was also the first night without my sweetheart, it felt strange to sleep alone. 
@@ -21,19 +21,19 @@ Then we put our luggage in a locker for the rest of the day and board the train 
 
 We wait a little for the other group. Four young Swiss come in. Everyone takes off their shoes and the factory manager translates the half-hour Japanese video. The company was taken over by his family 130 years ago. He shows a picture of piles of oyster shells collected by his ancestors and their predecessors. 
 
-{% include blog-image.html image-name = "dag2-oesters.jpg"  title = "Gofun powder factory oysters stock" %}
+{% include blog-image.html image-name = "dag2/dag2-oesters.jpg"  title = "Gofun powder factory oysters stock" %}
 
 The shells have to 'mature' for about 20 years before they can be ground into [gofun](https://artsandculture.google.com/story/gofun/1gVxdULy3vvoLw). As with many things in Japan - everything is prepared with care and a lot of patience. It takes about 18 months to turn a shell into gofun. So far, nothing has been changed in the process of making gofun. Only the grindstones are now driven by electricity.
 
 In a series of stages, the oysters are ground into increasingly fine pieces. In order to separate the finest grains from the coarser dregs, they are mixed with water. The real natural oysters used for the finest gofun (say 'golden pelican') are at least 10cm thick (a half!) and three times the size of what we call a large oyster. There must have been food in that ...
 
-{% include blog-image.html image-name = "dag2-pigment.jpg"  title = "Gofun powder factory bottles of coloured pigments" %}
+{% include blog-image.html image-name = "dag2/dag2-pigment.jpg"  title = "Gofun powder factory bottles of coloured pigments" %}
 
 In short. Afther the video and guided tour, we are all very excited, GOFUN and pigment are purchased.
 
 We get the email address of the only authentic bar maker in Japan, living in Tokyo, and off we go. My suitcase is half a kilo heavier than it was in the morning.
 
-{% include blog-image.html image-name = "dag2-bentobox.jpg"  title = "bentobox" %}
+{% include blog-image.html image-name = "dag2/dag2-bentobox.jpg"  title = "bentobox" %}
 
 Japan's last gofun factory is quite remote, so it will be an evening of trains and buses to get to Nagahama.
 

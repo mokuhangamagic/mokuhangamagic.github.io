@@ -1,5 +1,6 @@
 {% assign img_path = '/assets/images/blog/' | append: include.image-name | prepend: site.baseurl | replace: 'http://', 'https://' %}
 {% assign alt_text = include.title  %}
-<img class="img-fluid"
+<div class=" text-center"><img class="img-fluid"
      src="{{ img_path }}{{ include.src }}"
      alt="{{ alt_text }}">
+</div>    
