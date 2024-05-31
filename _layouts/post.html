@@ -5,68 +5,67 @@ archive: false
 post_class: post-template
 ---
 <div class="col-lg-9 mx-auto">
+    <div class="row">
 
-<!-- Begin Article
-================================================== -->
 
-	<div class="row">
-		
-
-		<!-- Post -->        
+        <!-- Post -->
         {% assign author = site.authors[page.author] %}
-        
-		<div class="col-sm-10">
-			<div class="mainheading">             
-                
+
+        <div class="col-sm-12">
+            <div class="mainheading">
+
                 <!-- Post Categories -->
                 <div class="after-post-tags">
                     <ul class="tags">
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
                         <li>
-                         <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
+                            <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>
                 </div>
                 <!-- End Categories -->
-                
+
                 <!-- Post Title -->
-				<h1 class="posttitle">{{ page.title }}</h1> 
-                
-			</div>
+                <h1 class="posttitle">{{ page.title }}</h1>
+
+            </div>
             <!-- Post Date -->
             <p>
                 <small>
-                    <span class="post-date">{{ page.author | capitalize}}, <time class="post-date" datetime="{{ page.blog-date | date:"%Y-%m-%d" }}">{{ page.blog-date | date: "%e %B %Y" }}</time>
-                    </span>           
+                    <span class="post-date">{{ page.author | capitalize}}, <time class="post-date"
+                            datetime="{{ page.blog-date | date:" %Y-%m-%d" }}">{{ page.blog-date | date: "%e %B %Y"
+                            }}</time>
+                    </span>
                 </small>
             </p>
-			
 
-			<!-- Post Content -->
-			<div class="page-content serif-font">
-				{{content}}
+
+            <!-- Post Content -->
+            <div class="page-content serif-font">
+                {{content}}
                 <div class="clearfix"></div>
-			</div>			
-            
+            </div>
+
             <!-- Prev/Next -->
             <div class="row PageNavigation mt-4 prevnextlinks d-flex justify-content-between">
-              {% if page.previous.url %}
+                {% if page.previous.url %}
                 <div class="col-md-6 rightborder pl-0">
-                    <a class="thepostlink" href="{{page.previous.url | absolute_url}}">&laquo; {{page.previous.title}}</a>
+                    <a class="thepostlink" href="{{page.previous.url | absolute_url}}">&laquo;
+                        {{page.previous.title}}</a>
                 </div>
-              {% endif %}
-              {% if page.next.url %}
+                {% endif %}
+                {% if page.next.url %}
                 <div class="col-md-6 text-right pr-0">
                     <a class="thepostlink" href="{{page.next.url | absolute_url}}">{{page.next.title}} &raquo;</a>
                 </div>
-              {% endif %}
+                {% endif %}
             </div>
             <!-- End Prev/Next -->
-            
-            
-        <!-- Author Box
+
+
+            <!-- Author Box
                 {% if page.author %}				
 				<div class="row post-top-meta">
 					<div class="col-md-2">
@@ -78,9 +77,10 @@ post_class: post-template
 				</div>				
                 {% endif %} 
         -->
-		</div>
-		<!-- End Post -->
+        </div>
+        <!-- End Post -->
 
-<!-- End Article
+        <!-- End Article
 ================================================== -->
+    </div>
 </div>

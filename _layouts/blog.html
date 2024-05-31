@@ -4,7 +4,6 @@ layout: default
 ---
 
 <div class="col-lg-9 mx-auto">
-
   <div class="page-content serif-font">
     <div class="row">
       {% for post in site.posts %}
@@ -14,14 +13,14 @@ layout: default
             <a href="{{ post.url }}">
               <h6 class="card-title mb-0">{{ post.title }}</h6>
             </a>
-           <div class="small pb-3"> 
+            <div class="small pb-3">
               <small>
                 <span class="post-date">{{ post.author | capitalize }}, <time class="post-date"
                     datetime="{{ post.blog-date | date:" %Y-%m-%d" }}">{{ post.blog-date | date: "%e %B %Y" }}</time>
                 </span>
               </small>
             </div>
-            <div class="pb-3">                {% include blog-image.html image-name = post.image title = "Blogpost cover image" %}
+            <div class="pb-3"> {% include blog-image.html image-name = post.image title = "Blogpost cover image" %}
             </div>
             <p class="card-text">{{ post.content | truncatewords: 40 | strip_html }}</p>
             <a href="{{ post.url }}">Read more</a>
@@ -31,5 +30,4 @@ layout: default
       {% endfor %}
     </div>
   </div>
-
 </div>
