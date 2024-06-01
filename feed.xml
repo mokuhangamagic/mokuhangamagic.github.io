@@ -5,13 +5,22 @@ layout: none
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" 
 xmlns:content="http://purl.org/rss/1.0/modules/content/">
 	<channel>
-		<title>{{ site.title | xml_escape }} goes Japan.</title>
+		<title>{{ site.title | xml_escape }} Follow Soetkin &amp; Vladimir in the fascinating world of woodblock printing.</title>
 		<description>Mokuhanga Magic blog. {% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
 		<link>{{ site.url }}</link>
 		<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     	<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 		<language>{{ site.lang }}</language>
-		<atom:link href="{{ site.url }}/feed-reddit.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+		<copyright>Copyright {{ 'now' | date: "%Y" }} Mokuhanga Magic!</copyright>
+		<image>
+			<link>{{ site.url }}</link>
+			<title>Mokuhanga Magic!</title>
+			<url>{{ '/assets/images/logo.png' | absolute_url }}</url>
+			<description>Mokuhanga Magic! logo</description>
+			<height>50</height>
+			<width>63</width>
+		</image>
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
@@ -23,6 +32,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 				<content:encoded>
     				<![CDATA[<img src="{{'/assets/images/blog/' | append: post.image | prepend: site.url | replace: 'http://', 'https://'}}" />]]>
           		</content:encoded>
+				<category>art</category>
+				<category>printmaking</category>
+				<category>mokuhanga</category>
 			</item>
 		{% endfor %}
 	</channel>
