@@ -5,7 +5,7 @@ type: personal
 city: Oslo
 address_1: 
 address_2:
-country: Belgium
+country: Norway
 lat_lon: 59.92142837002172, 10.784431020212121
 email:
 web:

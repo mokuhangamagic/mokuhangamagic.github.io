@@ -24,6 +24,13 @@ sass:
   style: compressed
 # ganalytics: UA-113961478-1
 
+
+# mokumap
+collections:
+  mokumap_entries:
+    output: true
+    sort_by: name
+
 defaults:
   -
     scope:
@@ -70,9 +77,3 @@ picture:
   nomarkdown: true
   output: "assets/images/generated"
   suppress_warnings: true
-
-
-# mokumap
-collections:
-  mokumap_entries:
-    output: true
