@@ -344,6 +344,8 @@ span.post-name a,span.post-read-more a:hover {
     font-size: 1.18em;
     line-height: 1.64;
 	color:rgba(39, 58, 47, 0.8);
+    border-color: $pink;
+    border-width: 3px;
     code {
         font-size:15px;
     }

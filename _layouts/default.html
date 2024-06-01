@@ -91,6 +91,11 @@
   <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
   <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
 
+  <!-- Matomo ================================================== -->
+  {% if jekyll.environment != "development" %}
+    {% include matomo.html %}
+  {% endif %}
+
 </body>
 
 </html>
