@@ -1,5 +1,5 @@
 ---
-author: soetkin
+author: Soetkin
 title: Day 3 | Nagahama - Echizen
 date: 2024-05-29
 blog-date: 2024-04-03

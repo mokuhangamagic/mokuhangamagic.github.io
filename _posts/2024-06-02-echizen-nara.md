@@ -1,5 +1,5 @@
 ---
-author: soetkin
+author: Soetkin
 title: Day 7 | Echizen - Nara
 date: 2024-06-02
 blog-date: 2024-04-07

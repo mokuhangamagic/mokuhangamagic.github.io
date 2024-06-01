@@ -1,5 +1,5 @@
 ---
-author: soetkin
+author: Soetkin
 title: Echizen - Tokio
 date: 2024-06-01
 blog-date: 2024-04-04

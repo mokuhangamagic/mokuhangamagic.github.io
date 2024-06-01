@@ -1,5 +1,5 @@
 ---
-author: soetkin
+author: Soetkin
 title: Day 2 | Osaka - Nagahama 
 date: 2024-04-02
 blog-date: 2024-04-02

@@ -1,0 +1,29 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
+		<title>{{ site.name | xml_escape }}</title>
+		<description>Mokuhanga Magic blog. {% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
+		<link>{{ site.url }}</link>
+		<pubDate>{{ site.time | rss }}</pubDate>
+    	<lastBuildDate>{{ site.time | rss }}</lastBuildDate>
+		<language>{{ site.language }}</language>
+		<atom:link href="{{ site.url }}/feed-reddit.xml" rel="self" type="application/rss+xml" />
+		{% for post in site.posts limit:10 %}
+			<item>
+				<title>{{ post.title | xml_escape }}</title>
+				<author>{{ post.author }}</author>
+				<description>{{ post.content | xml_escape }}</description>
+				<pubDate>{{ post.date | rss }}</pubDate>
+				<link>{{ site.url }}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<content:encoded>
+    				<![CDATA[<img src="{{'/assets/images/blog/' | append: post.image | prepend: site.url | replace: 'http://', 'https://'}}" />]]>
+          		</content:encoded>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>

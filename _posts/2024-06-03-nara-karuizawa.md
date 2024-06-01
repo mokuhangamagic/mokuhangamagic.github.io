@@ -1,5 +1,5 @@
 ---
-author: soetkin
+author: Soetkin
 title: Day 8 | Nara - Karuizawa 
 date: 2024-06-03
 blog-date: 2024-04-08
