@@ -1,8 +1,6 @@
 ---
 ---
 
-// start content
-
 $pink: #ff6881 !default;
 $green: #345C00 !default;
 
@@ -16,20 +14,6 @@ $font-family-sans-serif: Finlandica;
 html {
     scroll-behavior: smooth;
   }
-
-.font-400 {
-    font-family: "Finlandica", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.font-700 {
-    font-family: "Finlandica", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
 
 body {
     background:linear-gradient(100deg,rgba(112,204,132,0.13) 3%,rgba(112,204,132,0.45) 89%);
@@ -155,12 +139,6 @@ small, .small {
         }
     }
 }
-.social-icon {
-    display: inline-block !important;
-    width: 20px;
-    height: 20px;
-    margin-left: 15px;
-}
 
 /* Sidebar
 ================================================== */
@@ -249,6 +227,12 @@ small, .small {
     list-style: disc;
     margin-bottom:0rem;
 }
+
+.article-border {
+    border-width: 6px !important;
+    border-color: rgba($pink, 0.1) !important;
+}
+
 .prevnextlinks .thepostlink {
     padding: 20px 0;
     font-size: 17px;
@@ -525,10 +509,7 @@ ul.tags li a:hover {
 	border-radius:50%;
 	font-size:12px;
 }
-#comments {
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-}
+
 .sidebar {font-size: 15px;}
 .sidebar h5 {    margin-bottom: 1rem;   text-align:center; position:relative;font-weight: 700; }
 .sidebar h5 span {

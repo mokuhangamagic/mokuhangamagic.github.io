@@ -3,9 +3,9 @@ layout: default
 archive: false
 sitemap: false
 ---
-<div class="page-content">
-
-  <div class="col-sm-10">
+<div>
+  <div class="row justify-content-center">
+  <div class="col-sm-8">
     <!-- Post Featured Image -->
     {% if page.image %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}"
       alt="{{ page.title }}">{% endif %}
@@ -37,7 +37,7 @@ sitemap: false
     </dl>
 
 
-    <div class="page-content serif-font">
+    <div class="page-content serif-font border-left pl-3 article-border">
       {{content}}
       <div class="clearfix"></div>
     </div>
@@ -52,4 +52,5 @@ sitemap: false
     </small>
     </p>
   
+    </div>
   </div>
