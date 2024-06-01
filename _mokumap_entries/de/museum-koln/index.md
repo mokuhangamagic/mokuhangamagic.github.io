@@ -6,7 +6,7 @@ city: Köln
 address_1: Universitätsstrasse 100
 address_2: 50674 Köln
 country: Germany
-lat_lon: 50.839368597346144, 4.391513726656352
+lat_lon: 50.93434875305768, 6.925907732195205
 email: MOK@MUSEENKOELN.DE
 phone: +49 221 22128608
 web: https://museum-fuer-ostasiatische-kunst.de/Museum-of-East-Asian-Art
