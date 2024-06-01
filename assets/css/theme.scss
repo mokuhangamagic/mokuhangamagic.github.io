@@ -10,6 +10,8 @@ $green: #345C00 !default;
 
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
 
+$font-family-sans-serif: Finlandica;
+
 /* add additional CSS rules below */
 html {
     scroll-behavior: smooth;
@@ -35,8 +37,9 @@ body {
     transition: all 200ms linear;
     font-family: "Finlandica", sans-serif;
     font-weight: 400;
+    font-optical-sizing: auto;
     line-height: 1.7;
-    color: #333;
+    color: #545050;
     overflow-x:hidden;
     padding-top:116px;
     
@@ -340,7 +343,7 @@ span.post-name a,span.post-read-more a:hover {
 .page-content {
     font-size: 1.18em;
     line-height: 1.64;
-	color:rgba(0,0,0,.8);
+	color:rgba(39, 58, 47, 0.8);
     code {
         font-size:15px;
     }
@@ -657,18 +660,6 @@ span.navigation:before {
 .hover-opacity:hover {
     transition: all .3s;
     opacity:.8;
-}
-
-.expo2024 {
-    font-size: 16px;
-    h1 {
-        font-size: 48px;
-        color: white;
-        text-shadow: 2px 2px 4px $pink; 
-    };
-    h2 {
-        font-size: 24px;
-    }
 }
 
 /* goes: calendar widget on agenda page */

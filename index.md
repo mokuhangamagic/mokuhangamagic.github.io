@@ -5,7 +5,7 @@ layout: page
 ### Travelling exposition 2024 info
 
 <div class="pt-3" markdown="1">
-From __November 2023 to Januari 2025__, we will travel around with a mobile exhibition '__Weg van de Japanse houtsnede__' on Japanese woodcut throughout several Flemish cities. The exhibition consists of 3 parts:
+From __November 2023 to Januari 2025__, we travel around with a mobile exhibition '__Weg van de Japanse houtsnede__' on Japanese woodcut throughout several Flemish cities. The exhibition consists of 3 parts:
 1. the exhibition itself
 2. accompanying publication
 3. a live demonstration at the exhibition venue
