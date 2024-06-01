@@ -8,18 +8,33 @@ $green: #345C00 !default;
 
 @import 'bootstrap/bootstrap';
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
 
 /* add additional CSS rules below */
 html {
     scroll-behavior: smooth;
   }
-  
+
+.font-400 {
+    font-family: "Finlandica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-700 {
+    font-family: "Finlandica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
     background:linear-gradient(100deg,rgba(112,204,132,0.13) 3%,rgba(112,204,132,0.45) 89%);
     font-size:14px;
     transition: all 200ms linear;
-    font-family: "Roboto", sans-serif;
+    font-family: "Finlandica", sans-serif;
+    font-weight: 400;
     line-height: 1.7;
     color: #333;
     overflow-x:hidden;
@@ -27,8 +42,9 @@ body {
     
 }
 .serif-font {
-    font-family: Roboto;
+    font-family: Finlandica;
 }
+
 @media (max-width: 1366px) {
     .container-xl, .container-lg, .container-md, .container-sm, .container {
         width:90%;
@@ -40,9 +56,11 @@ main {min-height:500px;}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .navbar-light .navbar-brand, .text-dark, .dropdown-item {
     color: $pink;
 }
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-weight:600;
+    font-weight: 600;
 }
+
 h4, .h4, h5, .h5 {
     line-height:1.4;
 }
@@ -50,6 +68,7 @@ h4, .h4, h5, .h5 {
 .font-weight-bold {
     font-weight:600 !important;
 }
+
 a {
     color: $green;
     text-decoration:none;
@@ -374,12 +393,13 @@ blockquote {
 
 
 .card {	
-    border:0;
+    border: 0;
 }
 .card .img-thumb {
 	border-top-right-radius:4px;
 	border-top-left-radius:4px;
 }
+
 ul.tags {
 	list-style:none;
 	padding-left:0;
@@ -568,7 +588,7 @@ background-color: #fff;
 
 .page-content .h1, .page-content .h2, .page-content .h3, .page-content .h4, .page-content .h5, .page-content .h6, .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6 {
     font-weight: 600;
-    font-family: Roboto;
+    font-family: Finlandica;
     margin-top: 3rem;
 }
 
