@@ -5,19 +5,19 @@ layout: none
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" 
 xmlns:content="http://purl.org/rss/1.0/modules/content/">
 	<channel>
-		<title>{{ site.name | xml_escape }}</title>
+		<title>{{ site.title | xml_escape }} goes Japan.</title>
 		<description>Mokuhanga Magic blog. {% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
 		<link>{{ site.url }}</link>
-		<pubDate>{{ site.time | rss }}</pubDate>
-    	<lastBuildDate>{{ site.time | rss }}</lastBuildDate>
-		<language>{{ site.language }}</language>
+		<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    	<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+		<language>{{ site.lang }}</language>
 		<atom:link href="{{ site.url }}/feed-reddit.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
-				<author>{{ post.author }}</author>
+				<author>mokuhangamagic@gmail.com</author>
 				<description>{{ post.content | xml_escape }}</description>
-				<pubDate>{{ post.date | rss }}</pubDate>
+				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 				<content:encoded>

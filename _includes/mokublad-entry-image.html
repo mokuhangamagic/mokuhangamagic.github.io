@@ -1,4 +1,7 @@
-{% assign img_path = '/assets/images/pages/mokublad/' | append: include.image-name | prepend: site.baseurl | replace: 'http://', 'https://' %}
+{% assign img_path = '/assets/images/pages/mokublad/' | append: include.image-name | prepend: site.baseurl %}
+{% if jekyll.environment != "development" %}
+     {% assign img_path = img_path | ], 'https://' %}
+{% endif %} 
 {% assign alt_text = "Scan of Mokublad selected work named '" | append: include.title | append: "' by " | append: include.artist  %}
 <img class="img-fluid" 
      src="{{ img_path }}{{ include.src }}"

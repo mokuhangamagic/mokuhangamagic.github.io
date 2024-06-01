@@ -1,4 +1,7 @@
-{% assign img_path = '/assets/images/blog/' | append: include.image-name | prepend: site.baseurl | replace: 'http://', 'https://' %}
+{% assign img_path = '/assets/images/blog/' | append: include.image-name | absolute_url %}
+{% if jekyll.environment != "development" %}
+     {% assign img_path = img_path | replace: 'http://', 'https://' %}
+{% endif %}     
 {% assign alt_text = include.title  %}
 <div class="text-center"><img class="img-fluid img-thumbnail w-100"
      src="{{ img_path }}{{ include.src }}"
