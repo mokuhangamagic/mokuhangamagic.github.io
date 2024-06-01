@@ -15,7 +15,7 @@ instagram: https://www.instagram.com/mia_o_pen/
 facebook: 
 youtube:
 linked_in:
-tags: [artist]
+tags: [artist, mokublad]
 ---
 Mia O is a South Korean artist, currently living and working in Tokyo, Japan.  
 She received her BFA in Fine Arts from Hong-ik University, Seoul, Korea and her MFA in Painting from Pratt Institute School of Art in New York.  

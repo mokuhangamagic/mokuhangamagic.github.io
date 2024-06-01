@@ -15,7 +15,7 @@ instagram:
 facebook: https://www.facebook.com/april.vollmer/
 youtube:
 linked_in:
-tags: [artist]
+tags: [artist, mokublad]
 ---
 April Vollmer (b. 1951, Corning, NY) an artist, author and educator specializing in mokuhanga, Japanese woodcut, earned an MFA from Hunter College in 1983.  
 
