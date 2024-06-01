@@ -16,5 +16,12 @@ youtube:
 linked_in:
 tags: [artist, mokublad]
 ---
-Soetkin Everaert works as an artist from Ghent, Belgium. 
-Her field is broad from drawing, textiles and ceramics to graphics with a focus on japanese woodblock print.
+Soetkin Everaert lives and works in Belgium and is the founding mother of Mokuhanga Magic.
+
+Soetkin studied sculpture at LUCA Brussels. After her studies, she specialized in other disciplines such as ceramics and textile arts. 
+
+In 2018, she started the art course in free graphics at the Academy of Fine Arts of Ghent to study Japanese woodcut with Vladimir Ivaneanu.
+
+In her artistic work, Soetkin seeks to hold the ephemeral and temporary of “being” and turn it into stillness. 
+
+In 2022, Soetkin and Vladimir have the opportunity to curate this project on mokuhanga in cooperation with Focus Vakmanschap.

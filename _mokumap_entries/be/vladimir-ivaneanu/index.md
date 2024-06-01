@@ -16,3 +16,12 @@ youtube:
 linked_in:
 tags: [artist, mokublad]
 ---
+Vladimir Invaneau lives and works in Belgium. He's the founding father of Mokuhanga Magic.
+
+While studying printmaking, he developed a love for woodcut, which has continued to run like a thread through his artistic practice ever since. 
+
+To master Japanese woodcut, Vladimir apprenticed with Paul Furneaux and in 2007 participated in the Nagasawa Art Park Project in Japan, the forerunner of the current Mi- Lab. 
+
+Since 2011, Vladimir has been teaching mokuhanga at the Academy of Fine Arts of Ghent. There he met Soetkin Everaert. 
+
+In 2022 Vladimir and Soetkin have the opportunity to curate this project on mokuhanga in cooperation with Focus Vakmanschap.
