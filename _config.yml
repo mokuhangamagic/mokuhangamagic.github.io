@@ -11,7 +11,7 @@ future: false
 paginate: 30
 # disqus: 'demowebsite'
 locale: en_uk
-lang: en_uk
+lang: en
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
