@@ -3,7 +3,7 @@
      {% assign img_path = img_path | replace: 'http://', 'https://' %}
 {% endif %}     
 {% assign alt_text = include.title  %}
-<div class="text-center"><img class="img-fluid img-thumbnail w-100"
+<div class="text-center"><img class="img-fluid w-100 shadow"
      src="{{ img_path }}{{ include.src }}"
      alt="{{ alt_text }}">
 </div>    
