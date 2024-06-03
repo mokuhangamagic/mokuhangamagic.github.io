@@ -1,0 +1,211 @@
+{% include blog-image.html image-name = "dag1/dag1-jam.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag1/dag1-japansetuin.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag1/dag1-kersenbloesem.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag1/dag1-kimonos.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag1/dag1-naruto-pools.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag1/dag1-spiderman.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag1/dag1-torii.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag2/dag2-bentobox.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag2/dag2-gofunpoeder.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag2/dag2-oesters.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag2/dag2-pigment.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag3/dag3-nagahamaoudestraat.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag3/dag3-treinzicht.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag3/dag3-zichtnagahama.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag4/dag4-beursechizen.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag4/dag4-building-conference.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag4/dag4-etenbeurs.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag4/dag4-mia-o.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag4/dag4-mokuhangasisters.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag4/dag4-papier.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag4/dag4-soetkin-takes-a-picture.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag4/dag4-vieuwechizen.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag4/dag4-zeemeermin.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag5/dag5-detailsizingworkshop.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag5/dag5-foldinginthelobby.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag5/dag5-ralfkiggeltalk.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag5/dag5-sizingworkshop.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag5/dag5-testprintingworkshop.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag5/dag5-vieuwpodium.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag6/dag6-cherrytree.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag6/dag6-danser.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag6/dag6-festival.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag6/dag6-patisserie.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag6/dag6-preparingportfolio.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag6/dag6-printingdemo.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag7/dag7-biggestbudda.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag7/dag7-cherrytreesalongtheroad.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag7/dag7-dangerousdeer.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag7/dag7-detailsculpture.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag7/dag7-frenchfries.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag7/dag7-hugebuddas.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag7/dag7-skyvieuw.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag7/dag7-templeevening.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag7/dag7-treesnara.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag7/dag7-vladimirstanding.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag8/dag8-candlessumi.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag8/dag8-dryingsticks.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag8/dag8-insidefactory.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag8/dag8-ladysumi.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag8/dag8-makingsumi.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag8/dag8-puttingashesonsticks.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag8/dag8-sortingsticks.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag8/dag8-sumisticksready.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag8/dag8-vieuwfactory.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag8/dag8-workingspace.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag9/avondwerk.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag9/belgian-brocke-wetstenen.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag9/etna.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag9/gutsen-slijpen.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag9/ontbijt-aan-druktafel.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag9/zuivelafdeling.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag10/avondwerk.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/badkamer.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/barens-klaar.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/barens-overtrekken.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/eerste-snijpoging.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/etna.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/fungi.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/gordijn.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/kapotte-barens.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/machamagnum.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/meloenen.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/ochtendzicht-fiets.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/ochtendzicht-kamer.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/prei.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/sla.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/terry-met-zijn-zaag.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/vladimir-wandelt.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag10/wortels.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag11/borstels.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag11/kak-soetkin.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag11/kak-vladimir.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag11/koffie-en-verf.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag11/nieten.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag11/ochtend-met-kimono.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag11/vladimir-snijdt.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag12/mascottes.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag12/potjes-verf.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag12/soetkin-drukken.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag12/soetkin-drukt.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag12/vladimir-coiling-lang.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag12/vladimir-coiling.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag12/vladimir-schrijft.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag13/hond.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag13/japan.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag13/ontbijt-met-verf.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag13/potje-nori.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag13/vladimir-ijsje.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag14/buildings-tokio.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/drukken-tafel.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/drukken.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/etna.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/fuji-gordijn.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/hostessen-tokio.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/koffers-tokio.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/koffie-op-terras.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/micky-mouse.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/soetkin-drukt.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/soetkin-en-terry-ijsje.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/trein.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/valies.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag14/vladimir-lacht.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag15/acteurs.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/kabuki-aankondiging.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/kabuki-posters.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/kabuki.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/ochtend-tokio.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/sakura-plastic.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/schaduwbeeld.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/straat-tokio.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/theater.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag16/atelier.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/avond-straat.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/bidprentjes.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/bureau.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/houding-snijden.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/plaat-houtsnede.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/proefplaten.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/rommel-straat.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/print-houtsnede.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/snijden-sample.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/tabi.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag16/vladimir-loopt.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag17/bespreken-prent.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag17/bomen.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag17/buddha.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag17/condooms.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag17/noodles.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag17/rosan.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag17/sensei.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag18/alexzandra.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag18/borstels.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag18/borstelsmaakster.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag18/haaienvel.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag18/lijm.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag18/meester-snijdt.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag18/papier-losmaken.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag18/sensei-sample.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag18/teenborstels.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag18/vladimir-snijdt.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag18/woodlike.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag19/avondzon.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/bankschroef.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/bomen-en-paal.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/elleboog.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/hotel.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/kirakira.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/oefeningen.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/onderhoud-materiaal.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/paavo.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/paraplus.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/samen.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/senseis.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/straat.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag19/straatbeeld-nat.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag20/cafe-dame.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag20/cafe-heer.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag20/mia.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag20/palmen.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag20/posters.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag20/rij-trouwers.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag20/shibuya.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag20/trouwers.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag20/vader.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag20/vaderplezier.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag20/weerspiegeling.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag21/april-en-florence.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag21/basket.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag21/david-bull.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag21/ijsje.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag21/optocht.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag21/zanger.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag21/zelfportret.jpg" title = "omschrijving" %}
+
+{% include blog-image.html image-name = "dag22/gearriveerd.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag22/pantoffels.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag22/paraplus.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag22/selfie.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag22/tabi.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag22/valiezen.jpg" title = "omschrijving" %}
+
