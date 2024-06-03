@@ -45,7 +45,7 @@ Oh my. Is there anything here in Japan that is easy and quickely made without so
 
 We have lunch on the top floor of Nara station. The hospital is on the mezzanine floor of the station. We order our food carefully, enjoying the view. It's all in Japanese, but it's the IPad we need to use to order that makes it a little stressful. Hanna from Finland is a vegetarian and is served a soup with large bowls of meat. Courageously, she takes the meat out and drinks the rest of the soup.
 
-In the afternoon we visit [Boku'undo] (https://boku-undo.co.jp). This is a somewhat younger shop.
+In the afternoon we visit [Boku'undo](https://boku-undo.co.jp). This is a somewhat younger shop.
 
 Here they sell ink paste. Among the mokuhanga people, this has the reputation of being the 'best of the best' for black printing. And wow - cheaper than in Tokyo, and they have an even 'richer' or blacker version that the colleagues didn't know about yet.
 
@@ -55,7 +55,7 @@ State of affairs with my suitcase: 600g extra. Everyone has the same luggage pro
 
 We train back to Nara. It's really over now. The fifth Mokuhanga conference has come to an end. Goodbyes are said, invitations are extended, agreements are made and hugs are exchanged. It was nice. I would like to be there the next time it happens. Three years later, wiser, with a fuller portfolio and hopefully a new Flemish Mokuhanga constituency.
 
-Vladimir would like to buy some more paper. We will travel to Karuizawa this evening, to Terry's Mokuhanga school. Stopover in Osaka to buy paper. The vendor knows Vladimir by now. It's the third time this trip he's been there.
+Vladimir would like to buy some more paper. We will travel to Karuizawa this evening, to [Terry's Mokuhanga school](https://www.mokuhanga-school.jp). Stopover in Osaka to buy paper. The vendor knows Vladimir by now. It's the third time this trip he's been there.
 
 We still have four hours of train ahead of us. ETA is 11.30pm. If we miss a transfer somewhere it will be a night in Tokyo.
 
