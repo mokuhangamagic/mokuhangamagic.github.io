@@ -9,6 +9,16 @@ categories:
   - Geen categorie
 ---
 
+{% include blog-image.html image-name = "dag15/acteurs.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/kabuki-aankondiging.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/kabuki-posters.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/kabuki.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/ochtend-tokio.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/sakura-plastic.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/schaduwbeeld.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/straat-tokio.jpg" title = "omschrijving" %}
+{% include blog-image.html image-name = "dag15/theater.jpg" title = "omschrijving" %}
+
 Today is my 15th day in Japan. My beloved is going to fly back from Osaka to Belgium today.
 
 

@@ -6,7 +6,7 @@ blog-date: 2024-04-14
 layout: post
 tags:
   - japan
-image: dag14/dag14/drukken-tafel.jpg
+image: dag14/dag14-drukken-tafel.jpg
 ---
 
 {% include blog-image.html image-name = "dag14/drukken-tafel.jpg" title = "vieuw at the printtable" %}
