@@ -1,7 +1,7 @@
 ---
 author: Soetkin
 title: Day 14 |Karuizawa - Tokio
-date: 2024-06-0109
+date: 2024-06-09
 blog-date: 2024-04-14
 layout: post
 tags:
