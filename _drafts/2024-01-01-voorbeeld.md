@@ -6,7 +6,7 @@ blog-date: 2024-04-04
 layout: post
 tags:
   - japan
-image: dag0/image.jpg
+image: assets/images/blog/dag0/image.jpg
 ---
 {% include blog-image.html image-name = "dag0/image.jpg"  title = "Omschrijving" %}
 

@@ -6,7 +6,7 @@ blog-date: 2024-04-08
 layout: post
 tags:
   - japan
-image: dag8/dag8-vieuwfactory.jpg
+image: assets/images/blog/dag8/dag8-vieuwfactory.jpg
 ---
 
 My alarm clock is programmed for 8am. At 6am I am loudly woken up. I curse the joker who set the alarm clock for me yesterday 

@@ -6,7 +6,7 @@ blog-date: 2024-04-02
 layout: post
 tags:
   - japan
-image: dag2/dag2-oesters.jpg
+image: assets/images/blog/dag2/dag2-oesters.jpg
 ---
 {% include blog-image.html image-name = "dag2/dag2-gofunpoeder.jpg"  title = "Gofun powder factory shelves" %}
 

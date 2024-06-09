@@ -1,4 +1,5 @@
 title: "Mokuhanga Magic!"
+tagline: "Let's print!"
 description: "Mokuhanga Magic is a Belgium based research collaboration on Japanese woodcut printing or mokuhanga. The project is run with a lot of dedication by artists Soetkin Everaert & Vladimir Ivaneanu."
 email: mokuhangamagic@gmail.com
 timezone: UTC
@@ -63,6 +64,9 @@ social:
   instagram: https://www.instagram.com/mokuhangamagic
   facebook: https://www.facebook.com/mokuhanga.magic
   email: mailto:mokuhangamagic@gmail.com
+  links:
+    - https://www.instagram.com/mokuhangamagic
+    - https://www.facebook.com/mokuhanga.magic
 
 # Plugins
 plugins: 

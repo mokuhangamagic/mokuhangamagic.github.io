@@ -6,7 +6,7 @@ blog-date: 2024-04-03
 layout: post
 tags:
   - japan
-image: dag3/dag3-zichtnagahama.jpg
+image: assets/images/blog/dag3/dag3-zichtnagahama.jpg
 ---
 {% include blog-image.html image-name = "dag3/dag3-zichtnagahama.jpg"  title = "View on Nagahama city" %}
 

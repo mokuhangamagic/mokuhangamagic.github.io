@@ -6,7 +6,7 @@ blog-date: 2024-04-22
 layout: post
 tags:
   - japan
-image: dag22/dag22-pantoffels.jpg
+image: assets/images/blog/dag22/dag22-pantoffels.jpg
 ---
 
 The early bird catches the worm, so we get up early.

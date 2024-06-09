@@ -6,7 +6,7 @@ blog-date: 2024-04-07
 layout: post
 tags:
   - japan
-image: dag7/dag7-cherrytreesalongtheroad.jpg
+image: assets/images/blog/dag7/dag7-cherrytreesalongtheroad.jpg
 ---
 
 We will travel light for the next two days. We have sent our luggage to Karuizawa via the hotel in advance of our trip. Practical and cheap. Fingers crossed that everything will turn out well. State of the suitcase: half of it is now filled with "Japan - Mokuhanga stuff". Vladimir has the same problem and has the idea of 'unloading' some clothes in order to have more space.
