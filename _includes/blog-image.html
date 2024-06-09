@@ -1,4 +1,6 @@
-{% assign img_path = '/assets/images/blog/' | append: include.image-name | absolute_url %}
+{% assign img_path = include.image-name | replace: 'assets/images/blog/','' %}
+{% assign img_path = '/assets/images/blog/' | append: img_path | absolute_url %}
+
 {% if jekyll.environment != "development" %}
      {% assign img_path = img_path | replace: 'http://', 'https://' %}
 {% endif %}     
