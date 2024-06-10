@@ -1,6 +1,6 @@
 ---
 author: Soetkin
-title: Day 22 |Tokio - Singapore - Brussel
+title: Day 22 | Tokio - Singapore - Brussel
 date: 2024-06-17
 blog-date: 2024-04-22
 layout: post
