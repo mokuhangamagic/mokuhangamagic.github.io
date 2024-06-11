@@ -2,6 +2,15 @@
 title: Home
 layout: page
 ---
+### Now blogging: the Japan chronicles
+<div class="pt-3" markdown="1">
+We have started a [new blog](/blog) documenting our unforgettable journey to Japan following our visit to the [Mokuhanga conference](https://2024.mokuhanga.org/) in Echizen (Japan) last April. 
+
+Join us as we delve into the rich history, intricate techniques, and stunning artistry of Japanese woodblock printing. From exploring traditional workshops to meeting master craftsmen, we will take you on a captivating visual and narrative journey through this timeless art form in a fascinating country.
+
+Follow our journey on [the blog pages](/blog).
+</div>
+
 ### Travelling exposition 2024 info
 
 <div class="pt-3" markdown="1">
