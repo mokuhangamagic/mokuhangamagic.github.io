@@ -55,6 +55,19 @@
                             alt="{{item.title}}">{{item.title}}</a>
                     </li>
                     {% endfor %}
+                    <li class="nav-item">
+                        {% if site.active_lang == "nl" %}
+                        <a class="nav-link btn" {% static_href %} href="{{site.baseurl}}/en{{page.url}}" {%
+                            endstatic_href %}>
+                            <img class="img-fluid" src="{{site.baseurl}}/assets/images/flags/gb.svg">EN
+                        </a>
+                        {% else %}
+                        <a class="nav-link btn" {% static_href %} href="{{site.baseurl}}{{page.url}}" {% endstatic_href
+                            %}>
+                            <img class="img-fluid" src="{{site.baseurl}}/assets/images/flags/nl.svg">
+                        </a>
+                        {% endif %}
+                    </li>
                 </ul>
             </div>
 

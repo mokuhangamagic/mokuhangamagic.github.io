@@ -7,6 +7,7 @@ layout: post
 tags:
   - japan
 image: assets/images/blog/dag2/dag2-oesters.jpg
+lang: en
 ---
 {% include blog-image.html image-name = "dag2/dag2-gofunpoeder.jpg"  title = "Gofun powder factory shelves" %}
 

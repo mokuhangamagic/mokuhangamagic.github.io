@@ -1,25 +1,27 @@
 ---
 layout: page
-title: About
+title: Over ons
 permalink: "/about/"
+lang: en
 ---
 
 ### Mokuhanga, WTF?
-__We would like to introduce you to the wonderful world of Mokuhanga!__
+__We willen je graag introduceren in de wonderlijke wereld van Mokuhanga!__
 
-Here you will learn all about this ancient, eco-friendly printing technique where artistic interpretation and craftsmanship go hand in hand. 
+Hier leer je alles over deze oude, milieuvriendelijke druktechniek waarbij artistieke interpretatie en vakmanschap hand in hand gaan.
 
-Do you want to know why we actually love Mokuhanga and what all our plans are? 
+Wil je weten waarom wij zo dol zijn op Mokuhanga en wat onze plannen zijn?
 
-Would you like to learn how to make a Japanese woodcut yourself?
+Wil je zelf leren hoe je een Japanse houtsnede maakt?
 
-Would you like to know who else is enchanted by this technique and where to go for interesting podcasts, books, materials or exhibitions? 
+Wil je weten wie er nog meer door deze techniek betoverd zijn en waar je interessante podcasts, boeken, materialen of tentoonstellingen kunt vinden?
 
-In the coming months, we will continue to build our site and take you all the way.
+In de komende maanden blijven we onze site verder ontwikkelen en nemen we je helemaal mee.
 
-__Feel free to book us for a talk, demonstration or workshop!__
+__Boek ons gerust voor een lezing, demonstratie of workshop!__
 
-Have fun exploring!
+Veel plezier met het verkennen!
+
 
 
 ### About mokuhanga

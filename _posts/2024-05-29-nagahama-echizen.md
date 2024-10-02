@@ -7,6 +7,7 @@ layout: post
 tags:
   - japan
 image: assets/images/blog/dag3/dag3-zichtnagahama.jpg
+lang: en
 ---
 {% include blog-image.html image-name = "dag3/dag3-zichtnagahama.jpg"  title = "View on Nagahama city" %}
 

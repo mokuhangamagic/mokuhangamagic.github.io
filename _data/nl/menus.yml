@@ -1,0 +1,34 @@
+# Top Menu
+topmenu:
+
+- title: Home
+  url: ""
+
+- title: Over ons
+  url: "about/"
+
+- title: Blog
+  url: "blog/"
+
+- title: Mokublad
+  url: "mokublad/"
+
+- title: Mokumap
+  url: "mokumap/"
+
+- title: Agenda  
+  url: "agenda/"
+
+# Footer Menu
+footermenu:
+
+- title: Home
+  url: ""
+
+- title: Soetkin
+  url: https://www.soetkineveraert.be/ 
+  external: true
+
+- title: Vladimir
+  url: https://www.printstudio868.be/  
+  external: true
